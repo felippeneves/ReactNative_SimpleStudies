@@ -4,8 +4,6 @@ import { Text } from 'react-native'
 
 export default props => {
 
-    console.warn(props.children)
-
     return (
         <>
             <Text>[Início] Membros da família</Text>

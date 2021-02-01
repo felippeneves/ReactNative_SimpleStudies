@@ -1,8 +1,10 @@
 import React from 'react'
 import { SafeAreaView, StyleSheet } from 'react-native'
 
-import Family from './components/relation/Family'
-import Member from './components/relation/Member'
+import ListProducts from './components/products/ListProducts'
+// import UserLogged from './components/UserLogged'
+// import Family from './components/relation/Family'
+// import Member from './components/relation/Member'
 // import PairOdd from './components/PairOdd'
 // import Differentiate from './components/Differentiate'
 // import CounterV2 from './components/counter/CounterV2'
@@ -18,6 +20,13 @@ import Member from './components/relation/Member'
 
 export default () => (
     <SafeAreaView style = {style.App}>
+        <ListProducts />
+        {/*
+        <UserLogged user={{ name:'Teste', email:'teste@teste.com' }}/>
+        <UserLogged user={{ name:'Teste2' }}/>
+        <UserLogged user={{ email:'teste3@teste.com' }}/>
+        <UserLogged user={null}/>
+        <UserLogged user={{}}/>
         <Family>
             <Member name='Membro1' lastName='Silva'/>
             <Member name='Membro2' lastName='Silva'/>
@@ -29,7 +38,6 @@ export default () => (
             <Member name='Membro2' lastName='Souza'/>
             <Member name='Membro3' lastName='Souza'/>
         </Family>
-        {/*
         <PairOdd num={3}/>
         <Differentiate />
         <CounterV2 />
