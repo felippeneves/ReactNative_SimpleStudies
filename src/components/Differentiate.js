@@ -9,6 +9,6 @@ export default props => {
     } else if(Platform.OS === 'ios') {
         return <Text style={Styles.txtBig}>IOS</Text>
     } else {
-        return <Text style={Styles.txtBig}>Eita!!!</Text>
+        return <Text style={Styles.txtBig}>{Platform.OS}</Text>
     }
 }
