@@ -1,7 +1,10 @@
 import React from 'react'
 import { SafeAreaView, StyleSheet } from 'react-native'
 
-import TypeYourName from './components/TypeYourName'
+import FlexBoxV3 from './components/layout/FlexBoxV3'
+// import FlexBoxV2 from './components/layout/FlexBoxV2'
+// import FlexBoxV1 from './components/layout/FlexBoxV1'
+// import TypeYourName from './components/TypeYourName'
 // import ListProductsV2 from './components/products/ListProductsV2'
 // import ListProducts from './components/products/ListProducts'
 // import UserLogged from './components/UserLogged'
@@ -22,8 +25,11 @@ import TypeYourName from './components/TypeYourName'
 
 export default () => (
     <SafeAreaView style = {style.App}>
-        <TypeYourName />
+        <FlexBoxV3 />
         {/*
+        <FlexBoxV2 />
+        <FlexBoxV1 />
+        <TypeYourName />
         <ListProductsV2 />
         <ListProducts />
         <UserLogged user={{ name:'Teste', email:'teste@teste.com' }}/>
