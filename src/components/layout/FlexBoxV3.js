@@ -5,7 +5,7 @@ import Square from './Square'
 
 export default props => {
     return (
-        <SafeAreaView style = {style.FlexV2}>
+        <SafeAreaView style = {style.FlexV3}>
             <Square color = '#ff801a' size = {20} />
             <Square color = '#50d1f6' size = {30} />
             <Square color = '#dd22c1' size = {40} />
@@ -16,7 +16,7 @@ export default props => {
 }
 
 const style = StyleSheet.create({
-    FlexV2: {
+    FlexV3: {
         flexDirection: 'row',
         justifyContent: 'space-evenly',
         alignItems: 'baseline',
